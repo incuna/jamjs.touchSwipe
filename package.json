@@ -1,0 +1,35 @@
+{
+  "name": "zepto.touchSwipe",
+  "description": "A jQuery plugin to capture left, right, up and down swipes on touch devices.",
+  "homepage": "http://labs.skinkers.com/touchSwipe/",
+  "version": "1.2.3",
+  "maintainers": [
+    {
+      "name": "Matt Bryson",
+      "web": "http://www.skinkers.com" 
+    } 
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    },
+    {
+      "type": "GPL Version 2 licenses"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git", 
+      "url": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git"
+    }
+  ],
+  "github": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin",
+  "dependencies": {
+    "zepto": "*"
+  },
+  "main": "zepto.touchSwipe.js",
+  "jam": {
+    "main": "zepto.touchSwipe.js",
+    "include": ["zepto.touchSwipe.js"]
+  }
+}
