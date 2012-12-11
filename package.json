@@ -30,6 +30,10 @@
   "main": "zepto.touchSwipe.js",
   "jam": {
     "main": "zepto.touchSwipe.js",
-    "include": ["zepto.touchSwipe.js"]
+    "include": ["zepto.touchSwipe.js"],
+    "dependencies": {
+      "zepto": "*"
+    },
+    "shim": { "deps": [ "zepto" ] }
   }
 }
